@@ -7,7 +7,7 @@ num_elements = 10000    #number of vectors
 data = np.random.rand(num_elements,dim).astype(np.float32)  #example data
 
 
-# index 
+# index making
 
 p = hnswlib.Index(space = 'l2', dim = dim) 
 
